@@ -5,4 +5,6 @@ import router from './router'
 import store from './store'
 import './assets/tailwind.css';
 
+import 'primeicons/primeicons.css'
+
 createApp(App).use(store).use(router).mount('#app')
